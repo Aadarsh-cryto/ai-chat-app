@@ -1,16 +1,35 @@
-# React + Vite
+🤖 AI Chat Pro - Responsive Interface
+A modern, mobile-first AI chat interface featuring a responsive sidebar, persistent chat history, and a sleek Dark Mode UI. Built with React and styled with Tailwind CSS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
+Responsive Design: Seamlessly transitions from a desktop sidebar to a mobile-friendly hamburger drawer.
 
-Currently, two official plugins are available:
+Chat History: Access previous conversations with a dedicated "History" panel.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Real-time UI: Optimized for streaming text responses and interactive elements.
 
-## React Compiler
+Persistence: Saves your recent chats to localStorage so you don't lose them on refresh.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Auto-Scroll: Chat window automatically stays at the bottom of the conversation.
 
-## Expanding the ESLint configuration
+🚀 Tech Stack
+Frontend: React.js
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Styling: Tailwind CSS
+
+Icons: Lucide React
+
+State Management: React Hooks (useState, useEffect, useContext)
+
+🛠️ Installation & Setup
+
+Bash
+cd ai-chat-app
+Install dependencies:
+
+Bash
+npm install
+Start the development server:
+
+Bash
+npm run dev
