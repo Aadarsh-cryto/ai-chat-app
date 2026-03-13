@@ -1,0 +1,65 @@
+/* @import "tailwindcss";   
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins',sans-serif;
+}
+#root{
+    display: flex;
+}
+.dark-mode{
+  --color: white;
+  --background-color: rgb(86,81,81);
+}
+
+.light-mode{
+  --color: black;
+  --background-color: white;
+}
+ */
+ @import "tailwindcss";
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'poppins',sans-serif;
+}
+
+#root{
+display:flex;
+width:100%;
+height:100vh;
+overflow:hidden;
+}
+
+/* DARK MODE */
+
+.dark-mode{
+--color:white;
+--background-color:rgb(86,81,81);
+}
+
+/* LIGHT MODE */
+
+.light-mode{
+--color:black;
+--background-color:white;
+}
+
+/* Hide Scrollbar */
+
+.no-scrollbar::-webkit-scrollbar{
+display:none;
+}
+
+.no-scrollbar{
+-ms-overflow-style:none;
+scrollbar-width:none;
+}
